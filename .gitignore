@@ -1,0 +1,7 @@
+build/*
+coverage*
+.idea
+*.iml
+/data
+vendor/*/
+.DS_Store
