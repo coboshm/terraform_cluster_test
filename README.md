@@ -19,6 +19,6 @@ This repo contains a sample code to run a cluster of EC2 Instances in an Auto Sc
 
 ## Nice To Have
 
-1. Service Discovery (too know what instances we have and where to deploy) and deployment tool
+1. Add Deploy in the make and rollback (codedeploy aws)
 1. Provisioning the EC2 Image For example to (create service in order to start using `sudo service {{ item }} start`
 ...
