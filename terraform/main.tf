@@ -79,7 +79,7 @@ resource "aws_launch_configuration" "example" {
   #Start binary TODO: Create service and start it
   user_data = <<-EOF
               #!/bin/bash
-              ./opt/api" &
+              nohup ./opt/api &
               EOF
 
   # Important note: whenever using a launch configuration with an auto scaling group, you must set
